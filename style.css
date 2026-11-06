@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+  background-color: #8ef903;
+  font-family: Arial, sans-serif;
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Creepster", system-ui, cursive, sans-serif;
+  font-style: normal;
+  display: inline-block;       
+  border-radius: 9999px;
+  background-color: #472c14;
+  color: #f51905;
+  text-align: center;
+  margin-top: 1em;
+  padding: 1rem 1.5rem;
+  clear: left;
+}
+
+#nav_menu ul {
+  list-style-type: none;
+  padding-bottom: 2em;
+}
+
+#nav_menu ul li {
+  float: left;
+}
+
+#nav_menu ul li a {
+  text-align: center;
+  display: block;
+  width: 250px;
+  padding: 1em 0;
+  text-decoration: none;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  border-right: 2px solid black;
+}
+
+#nav_menu ul li a.lastitem {
+  border-right: 2px solid black;
+}
+
+#nav_menu ul li a.current {
+  color: yellow;
+}
+
+ul.square {
+  list-style-type: square;
+}
+h2 {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+h2 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; 
+  height: auto;
+}
+
+.poop-gif {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-family: "Creepster", system-ui, cursive, sans-serif;
+  font-style: normal;
+  font-size: 80px;
+  color: #f51905;
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+h3 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; 
+  height: auto;
+  text-decoration: none;
+}
