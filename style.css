@@ -15,7 +15,18 @@ body {
   padding: 2rem;
 }
 
-/* Flexbox container for the 4 blocks */
+.site-header {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  max-width: 1000px;
+}
+
+.site-header img {
+  width: 280px;
+  max-width: 80%;
+  height: auto;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -25,7 +36,6 @@ body {
   margin: 0 auto;
 }
 
-/* Individual floating blocks */
 .floating-block {
   flex: 1 1 calc(50% - 2rem);
   min-width: 280px;
@@ -35,7 +45,6 @@ body {
   padding: 1.5rem;
 }
 
-/* Centered album cover on top of heading with hover zoom */
 .floating-block img {
   display: block;
   width: 150px;
@@ -59,4 +68,6 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+
 
