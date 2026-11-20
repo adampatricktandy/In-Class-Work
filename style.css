@@ -22,10 +22,13 @@ body {
 }
 
 .site-header img {
-  width: 280px;
-  max-width: 80%;
+  display: block;
+  width: 180px;      
+  max-width: 60%;
   height: auto;
+  margin: 0 auto;    
 }
+
 
 .flex-container {
   display: flex;
@@ -68,6 +71,8 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+
 
 
 
